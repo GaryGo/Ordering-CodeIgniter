@@ -1,0 +1,197 @@
+.home-page {
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	width: 80%;
+	min-height: 40em;
+}
+
+.home-all-btn {
+	/*border: 1px solid black;*/
+	width:90%;
+	margin: 1em auto;
+}
+
+.orders-progress {
+	/*height: 15em;*/
+	/*border: 1px solid black;*/
+	width:90%;
+	margin: 1em auto;
+}
+
+.order-status-header p {
+	font-size: 2em;
+}
+
+.order-search-panel {
+	/*border: 1px solid gray;*/
+	width: 80%;
+	padding-top: 1em;
+	margin: 0px auto;
+}
+
+.search-by-field {
+	text-align: left;
+	padding-top: 2em;
+	padding-left: 1em;
+	border-bottom: 1px solid gray;
+}
+
+.search-by-field ul li {
+	display:inline;
+	margin-left: 1em;
+}
+
+.search-by-field input[type="button"] {
+	position: relative;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	bottom: 0.4em;
+}
+
+.search-by-field li strong {
+	font-size: 1.2em;
+	position: relative;
+	bottom: 0.15em;
+}
+
+
+.search-by-field input[type="date"] {
+	width: 10em;
+}
+
+.table-content {
+	padding-top: 2em;
+	width: 90%;
+	margin: 0px auto;
+}
+.table-content p{
+	font-size: 0.9em;
+	width: 100%;
+	margin: 0px auto;
+	padding-top: 0.1em;
+	padding-bottom:0.1em;
+}
+
+.order-table-title {
+	padding: 2em auto;
+	font-size: 2em;
+}
+
+.order-table table {
+	margin: 0px auto;
+}
+
+.order-table {
+	padding-bottom: 1em;
+}
+
+.order-search-panel span {
+	float: left;
+	color: #A32824;
+	font-size: 1.5em;
+	font-weight:bold;
+	cursor: pointer;
+	margin-left: 9.4em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.order-search-panel span:hover {
+	background:#A32824;
+	color: #FFF;
+}
+
+.adler-logo {
+	background: #fff;
+	padding-left: 1em;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.hm-btn {
+	line-height: 3em;
+}
+
+.hm-btn button {
+	/*display: block;*/
+	line-height: 2em;
+	width: 20em;
+}
+
+.add-item-layer {
+	position: absolute;
+	z-index:999;
+	width: 100%;
+	margin-top: 12em;
+	/*height: 100%;*/
+	background: rgba(100, 100, 100, 0.9);
+	/*opacity:;*/
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+.add-item-layer table {
+	margin: 0px auto;
+}
+
+.add-item-layer p {
+	font-size: 3em;
+	color: white;
+}
+
+.add-item-layer #add-new-item-submit-btn {
+	margin-top: 1em;
+	width: 10em;
+	margin-right: 0.5em;
+}
+
+.add-item-layer #cancel-new-item-btn {
+	margin-top: 1em;
+	width: 10em;
+	margin-left:0.5em;
+}
+
+
+.choose-item-img {
+	position: absolute;
+	z-index:1000;
+	width: 100%;
+	height: 9em;
+	margin-top: 12em;
+	/*height: 100%;*/
+	background: rgba(100, 100, 100, 0.9);
+	/*opacity:;*/
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+.choose-item-img input[type="file"] {
+	color: #fff;
+	margin-left: 13.5em;
+}
+
+.choose-item-img input[type="submit"] {
+	margin-top: 1em;
+}
+
+.add-item-img {
+	position: absolute;
+	z-index:1000;
+	width: 100%;
+	height: 9em;
+	margin-top: 12em;
+	/*height: 100%;*/
+	background: rgba(100, 100, 100, 0.9);
+	/*opacity:;*/
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+.add-item-img input[type="file"] {
+	color: #fff;
+	margin-left: 13.5em;
+}
+
+.add-item-img input[type="submit"] {
+	margin-top: 1em;
+}
